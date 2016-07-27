@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+body {
+    background-image: url(images/quizBackground2.png);
+    background-size: cover;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+header.title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    margin: 2.8rem auto;
+    font-family: 'Walter Turncoat', cursive;
+    text-shadow: .5rem 0rem 12px orange;
+}
+
+.column {
+    display: inline-block;
+    width: 34%;
+    vertical-align: top;
+    padding: 2rem;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+.question {
+    color: white;
+    text-align: center;
+    width: 64%;
+    font-family: 'Walter Turncoat', cursive;
+    padding-right: 15rem;
+}
+
+.answer {
+    color: grey;
+}
+
+.answer li {
+    padding: 1rem;
+}
+
+.explanation {
+    color: white;
+    text-align: center;
+    width: 64%;
+    padding-right: 15rem;
+}
+
+.counter {
+    color: white;
+    text-align: left;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+}
+
+.results {
+    color: white;
+    text-align: center;
+    padding: .5rem;
+    margin-top: .4rem;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+.results > h2 {
+    padding: 1rem;
+}
+
+.results > h3 {
+    padding: 1rem;
+}
+
+.results > h4 {
+    padding: 1rem;
+}

@@ -35,6 +35,49 @@ header.title {
     text-shadow: .5rem 0rem 12px orange;
 }
 
+.start-section {
+    text-align: center;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 19.5rem 18rem 22rem 19rem;
+    padding: 2rem;
+    width: 65%;
+    margin-bottom: 1rem;
+    margin: -9% 6%;
+    position: fixed;
+}
+
+.start-section h2 {
+    color: orangered;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.text {
+    color: white;
+    padding-bottom: 1rem;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 2rem;
+}
+
+.start-button {
+    margin: 0rem 25%;
+    background-color: #9e9e9e;
+    border-color: #9e9e9e;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+    text-shadow: none;
+    width: 50%;
+    color: #000000
+}
+
+.start-button:hover {
+    background-color: #707070;
+}
+
 .column {
     display: inline-block;
     width: 34%;
@@ -91,4 +134,8 @@ header.title {
 
 .results > h4 {
     padding: 1rem;
+}
+
+.option {
+    margin: 0rem 1rem;
 }

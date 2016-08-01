@@ -92,10 +92,13 @@ header.title {
     width: 64%;
     font-family: 'Walter Turncoat', cursive;
     padding-right: 15rem;
+    font-size: 2rem;
 }
 
 .answer {
     color: grey;
+    font-size: 1.5rem;
+    padding-top: 0rem;
 }
 
 .answer li {
@@ -126,7 +129,7 @@ header.title {
     color: white;
     text-align: left;
     padding-top: 5rem;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .results {

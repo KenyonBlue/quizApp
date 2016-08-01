@@ -27,42 +27,48 @@
 -->
     </section>
     <div class="counter column">
-        <h1>QUESTION 1 OF 5</h1></div>
+        <h1 class="question-number" id="questionNumberDisplay">QUESTION 1 OF 5</h1></div>
     <div class="question column" id="questionDisplay">
-        <h2>This is the question?</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus et ea provident quo nihil eos autem vero molestias perspiciatis assumenda nesciunt fuga, possimus quas quasi excepturi ipsum rerum eligendi perferendis.</p>
+        <h2 id="questiontitle">This is the question?</h2>
     </div>
 
 
 
 
     <div class="answer column">
-        <ul>
-            <li>
-                <input type='radio' class='option' name='option' value='0' />low vigor
 
-            </li>
-            <li>
-                <input type='radio' class='option' name='option' value='0' />pre-competitive affect
+        <div id="choices">
+            <input class="option" type="radio" value="0" name="option">
+            <br>
+            <input class="option" type="radio" value="1" name="option">
+            <br>
+            <input class="option" type="radio" value="2" name="option">
+            <br>
+        </div>
 
-            </li>
-            <li>
-                <input type='radio' class='option' name='option' value='0' />high confusion
-
-            </li>
-        </ul>
     </div>
+    <!-- we may not need this div below .. adding answers to div after test tbd -->
     <div class="explanation column">
         <h2>This is the explanation!</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus et ea provident quo nihil eos autem vero molestias perspiciatis assumenda nesciunt fuga, possimus quas quasi excepturi ipsum rerum eligendi perferendis.</p>
     </div>
 
+    <section class="result-section" style="display: none;">
+        <h2 class="text"> Final Score </h2>
+        <h3 class="text" id="finalScore">10/10</h3>
+        <div id="result_msg"></div>
+        <button class="start-button" id="tryagain">Try Again</button>
+    </section>
+
+
+    <!--
     <div class="results">
 
-        <h3>User score 3 out of 5 Well Done!</h3>
-
-        <button> try again! </button>
+        <h3 id="finalScore">User score 0 out of 5 Good Luck!</h3>
+        <div id="result_msg"></div>
+        <button class="start-button" id="tryagain"> try again! </button>
     </div>
+-->
 
     <script src="jquery-3.0.0.js"></script>
     <script src="app.js"></script>

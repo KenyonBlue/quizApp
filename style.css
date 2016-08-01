@@ -48,7 +48,7 @@ header.title {
 }
 
 .start-section h2 {
-    color: orangered;
+    color: darkorange;
     text-align: center;
     font-size: 2.3rem;
 }
@@ -107,6 +107,19 @@ header.title {
     text-align: center;
     width: 64%;
     padding-right: 15rem;
+}
+
+.result-section h3 {
+    padding: .4rem;
+    color: orange
+}
+
+.result-section {
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    font-family: 'Walter Turncoat', cursive;
 }
 
 .counter {
